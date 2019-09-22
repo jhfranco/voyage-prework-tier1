@@ -6,6 +6,7 @@ body {
 	padding: 0;
 	display: flex;
 	justify-content: center;
+	align-content: center;
 	flex-direction: column;
 }
 
@@ -25,22 +26,8 @@ h3 {
 	text-align: center;
 }
 
-/* for aligning section content in the center to allow background color to extend */
-.container-home {
-	justify-content: center;
-	display: flex;
-}
-
-.container-home div {
-	width: 50%;
-}
-
-.column {
-	padding: auto;
-	justify-content: space-evenly;
-	align-content: center;
-	text-justify: center;
-	display: flex;
+svg {
+	padding: 50px 50px;
 }
 
 nav {
@@ -61,7 +48,27 @@ nav a {
 	text-decoration: none;
 }
 
-.home {
+section {
+	border: 5px greenyellow solid;
+}
+
+div {
+	border: 3px red solid;
+}
+.container {
+	display: flex;
+}
+
+.bot-description {
+	max-width: ;
+	align-self: center;
+}
+
+.bot-description img {
+	display: block;
+	margin: 0 auto;
+}
+#home {
 	background-color: #55c0ec;
 	color: white;
 	justify-content: center;
@@ -69,30 +76,17 @@ nav a {
 	padding: 0 0;
 }
 
-/* .home-left {
-    }
-
-    .home-right {
-    } */
-
-.about {
-	justify-content: center;
-	align-items: right;
-	padding: 0 15%;
-}
-
-.features {
-	background-color: #90ddaa;
-}
-
-/* .add {
-    }
-
-    .footer {
-    } */
-
 #subtitle {
 	font-size: 26.8px;
 	margin: 0 auto;
 	text-align: center;
+}
+
+#footer {
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 24px;
+	background-color: #40596b;
+	text-align: center;
+	color: lightgrey;
 }
