@@ -32,36 +32,41 @@ svg {
 
 nav {
 	background: rgba(0, 0, 0, 0.75);
-	display: flex;
-	justify-content: center;
-	align-items: center;
 	margin: 0;
+	background-color: #40596b;
 	padding: 16px 0;
 	width: 100%;
-	height: 30px;
+	height: 62px;
 }
 
 nav a {
 	color: #ffd05a;
-	font-size: 20px;
+	font-size: 24px;
 	padding: 0 7px;
+	text-decoration: none;
+	-webkit-transition: color .75s ease-out;
+	-moz-transition: color .75s ease-out;
+	-ms-transition: color .75s ease-out;
+	-o-transition: color .75s ease-out;
+	transition: color .75s ease-out;
 	text-decoration: none;
 }
 
-section {
+nav a:hover {
+	color: white;
+	text-decoration: none;
+}
+
+/* section {
 	border: 5px greenyellow solid;
 }
 
 div {
 	border: 3px red solid;
-}
-.container {
-	display: flex;
-}
+} */
 
 .bot-description {
-	max-width: ;
-	align-self: center;
+	max-width: 50%;
 }
 
 .bot-description img {
@@ -71,8 +76,6 @@ div {
 #home {
 	background-color: #55c0ec;
 	color: white;
-	justify-content: center;
-	align-items: right;
 	padding: 0 0;
 }
 
