@@ -64,14 +64,24 @@ nav a:hover {
 div {
 	border: 3px red solid;
 } */
+.card {
+	background-color: #40596b;
+}
 
+.card-body {
+	background-color: white;
+}
 .bot-description {
-	max-width: 50%;
+	max-width: 550px;
 }
 
 .bot-description img {
 	display: block;
 	margin: 0 auto;
+}
+
+.container-narrow {
+	max-width: 30%;
 }
 #home {
 	background-color: #55c0ec;
@@ -83,6 +93,10 @@ div {
 	font-size: 26.8px;
 	margin: 0 auto;
 	text-align: center;
+}
+
+#features {
+	background-color: #90ddaa;
 }
 
 #footer {
