@@ -13,7 +13,6 @@ body {
 	justify-content: center;
 	align-content: center;
 	flex-direction: column;
-
 }
 
 h1 {
@@ -106,7 +105,10 @@ div {
 }
 
 .container-narrow {
-	max-width: 30%;
+	max-width: 40%;
+	justify-content: center;
+	text-align: center;
+	margin: 5% auto;
 }
 
 .topbtn {
@@ -136,6 +138,8 @@ div {
 	padding: 0 0;
 	min-height: 464px;
 	height: 1046px;
+	display: flex;
+	justify-content: center;
 }
 
 #subtitle {
@@ -155,5 +159,10 @@ div {
 	background-color: #40596b;
 	text-align: center;
 	color: lightgrey;
+}
 
+svg {
+	f: center;
+	padding: auto auto;
+	margin: auto auto;
 }
